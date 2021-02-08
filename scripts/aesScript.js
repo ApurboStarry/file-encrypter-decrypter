@@ -155,7 +155,7 @@ async function encryptfile() {
   });
   var plaintextbytes = new Uint8Array(plaintextbytes);
 
-  var pbkdf2iterations = 10000;
+  var pbkdf2iterations = 100000;
   var passphrasebytes = new TextEncoder("utf-8").encode(txtEncpassphrase.value);
   var pbkdf2salt = window.crypto.getRandomValues(new Uint8Array(8));
 
