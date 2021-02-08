@@ -1,0 +1,96 @@
+a.nav-link:link {
+  text-decoration: none;
+}
+
+a.nav-link:visited {
+  text-decoration: none;
+}
+
+a.nav-link:hover {
+  text-decoration: underline;
+}
+
+a.nav-link:active {
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Helvetica", "Arial", "sans-serif";
+  color: black;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.black10pointcourier {
+  font-family: "courier";
+  color: black;
+  font-size: 10pt;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.dropzone {
+  border: 10px dashed gray;
+  width: 20%;
+  padding: 2% 2% 5% 2%;
+  text-align: center;
+  margin: auto;
+}
+
+.divTablefullwidth {
+  display: table;
+  width: 100%;
+}
+
+.divTable {
+  display: table;
+}
+
+.divTableRow {
+  display: table-row;
+}
+.divTableCell {
+  display: table-cell;
+  padding: 3px 3px;
+}
+.divTableBody {
+  display: table-row-group;
+}
+
+.greenspan {
+  color: green;
+}
+
+.redspan {
+  color: red;
+}
+
+#passwordWarning {
+  color: white;
+  background-color: firebrick;
+}
+
+.encryptDecryptOption {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#btnEncrypt {
+  display: inline-block;
+}
